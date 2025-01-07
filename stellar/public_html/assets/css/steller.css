@@ -597,6 +597,8 @@ pre code {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -11643,4 +11645,23 @@ pre {
 
 .section.bg-gray {
   background: white;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certifications-div {
+  padding: 50px;
+}
+
+.cert-card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 7px;
+  margin: 10px;
 }
