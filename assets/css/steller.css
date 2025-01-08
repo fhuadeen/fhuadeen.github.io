@@ -11681,3 +11681,7 @@ pre {
   height: 16px;
   width: 16px;
 }
+
+.logo-img {
+  border-radius: 50%;
+}
