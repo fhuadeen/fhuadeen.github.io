@@ -11543,6 +11543,10 @@ pre {
   }
 }
 
+/* .widget {
+  position: fixed;
+} */
+
 .header .widget {
   position: relative;
   max-width: 650px;
@@ -11664,4 +11668,16 @@ pre {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 7px;
   margin: 10px;
+}
+
+/* bluesky icon */
+.bi-bluesky::before {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask: url("../imgs/bluesky.svg") no-repeat 50% 50%;
+  mask: url("../imgs/bluesky.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  height: 16px;
+  width: 16px;
 }
