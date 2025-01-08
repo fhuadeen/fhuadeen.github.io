@@ -10,335 +10,670 @@
       gtag('config', 'G-7VKP6R44QD');
     </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/fhuad_mask.jpg"/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Modified from Steller landing page.">
+    <meta name="author" content="Fhuad Balogun">
+
+    <link rel="shortcut icon" href="assets/imgs/logo_transparent.png"/>
     <title>Fhuad Balogun</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
 </head>
-<body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo"></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <!-- <li><a href="projects.html">Projects</a></li> -->
-                    <li><a href="stacks.html">Stacks</a></li>
-                    <li><a href="https://medium.com/@fhuadeen">Blogs</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    
-    <!-- Showcase -->
-    <section class="showcase">
-        <div class="container grid">
-            <div class="showcase-text">
-                <h1>Fhuad Balogun</h1>
-                <p>An AWS certified software engineer with experience in AI/ML, data engineering, backend development, MLOps/DevOps (Microservices, Kubernetes, CI/CD, IaC and cloud engineering).</p>
-                <p> I help build and integrate end-to-end AI/ML solutions with big data efficiently, leveraging AWS cloud.</p>
-                <a href="stacks.html" class="btn btn-outline">Stacks</a>
-                <!-- <a href="projects.html" class="btn btn-outline">Projects</a> -->
-                <a href="https://medium.com/@fhuadeen" class="btn btn-outline">Blogs</a>
-            </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-            <!-- <div class="showcase-form card">
-                <h2>Request a Demo</h2>
-                 <form>
-                    <div class="form-control">
-                        <input type="text" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" name="company" placeholder="Company Name" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="email" name="email" placeholder="Email" required>
-                    </div>
-                    <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-            </div> -->
-            <div class="col-md-5">
-                <!-- <img src="{{url_for('static', filename='second_profile.JPG')}}" width="400" height="400"> -->
-                <img src="images/fhuad.jpg" alt="" width="400" height="400">
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">
+                <img src="assets/imgs/fhuad_mask.jpg" alt="">
                 <style>
-                  img {
-                    border-radius: 50%;
-                  }
+                    img {
+                      border-radius: 50%;
+                    }
                 </style>
-              </div>
-        </div>
-    </section>
+            </a> -->
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo_transparent.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!-- Stats -->
-    <section class="stats">
-        <!-- <div class="container">
-            <h3 class="stats-heading text-center my-1">
-                Welcome to the best platform for building applications of all types with modern architecture and scaling
-            </h3>
-
-            <div class="grid grid-3 text-center my-4">
-                <div>
-                    <i class="fas fa-server fa-3x"></i>
-                    <h3>10,349,405</h3>
-                    <p class="text-secondary">Deployments</p>
-                </div>
-                <div>
-                    <i class="fas fa-upload fa-3x"></i>
-                    <h3>987 TB</h3>
-                    <p class="text-secondary">Published</p>
-                </div>
-                <div>
-                    <i class="fas fa-project-diagram fa-3x"></i>
-                    <h3>2,343,265</h3>
-                    <p class="text-secondary">Projects</p>
-                </div>
-            </div>
-        </div> -->
-    </section>
-
-    <!-- Skills -->
-    <section class="languages">
-        <h2 class="md text-center my-2">
-            Interests
-        </h2>
-        <div class="container flex">
-            <div class="card">
-                <a href="stacks.html">
-                <h4>AI/ML</h4>
-                <img src="images/logos/ml.png" alt="">
-                </a>
-            </div>
-            <div class="card">
-                <a href="dataeng.html">
-                <h4>Big Data</h4>
-                <img src="images/logos/de.png" alt="">
-                </a>
-              </div>
-            <div class="card">
-                <a href="backeng.html">
-                <h4>Backend</h4>
-                <img src="images/logos/backend.png" alt="">
-                </a>
-              </div>
-            <div class="card">
-                <a href="ops.html">
-                <h4>DevOps</h4>
-                <img src="images/logos/devops.png" alt="">
-                </a>
-            </div>
-            <div class="card">
-                <a href="ops.html">
-                <h4>Cloud</h4>
-                <img src="images/logos/cloud.png" alt="">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications -->
-    <section class="languages">
-        <h2 class="md text-center my-2">
-            Major Certifications
-        </h2>
-        <div class="container flex">
-            <div class="card">
-                <a href="https://www.credly.com/badges/71167e0e-5cf1-40be-a2e2-44259692062f">
-                <h4>AWS Developer Associate</h4>
-                <img src="images/logos/aws_dva.png" alt="">
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://www.credly.com/badges/41b781fb-3450-404f-96c1-4028c707e25a">
-                <h4>AWS ML Specialty</h4>
-                <img src="images/logos/aws_mls.png" alt="">
-                </a>
-              </div>
-        </div>
-    </section>
-
-
-    <!-- Tools -->
-    <section class="languages">
-        <h2 class="md text-center my-2">
-            Major Technologies
-        </h2>
-        <div class="container flex">
-            <div class="card">
-                <h4>Python</h4>
-                <img src="images/logos/python.png" alt="">
-            </div>
-            <!-- <div class="card">
-                <h4>Node.js</h4>
-                <img src="images/logos/node.png" alt="">
-              </div> -->
-            <!-- <div class="card">
-                <h4>Rust</h4>
-                <img src="images/logos/rust.png" alt="">
-              </div> -->
-            <div class="card">
-                <h4>FastAPI</h4>
-                <img src="images/logos/fastapi.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Django</h4>
-                <img src="images/logos/django.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Flask</h4>
-                <img src="images/logos/flask.png" alt="">
-              </div>
-            <div class="card">
-                <h4>GraphQL</h4>
-                <img src="images/logos/graphql.png" alt="">
-              </div>
-            <div class="card">
-                <h4>Pytorch</h4>
-                <img src="images/logos/pytorch.png" alt="">
-            </div>
-            <div class="card">
-                <h4>TensorFlow</h4>
-                <img src="images/logos/tensorflow.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Scikit-Learn</h4>
-                <img src="images/logos/scikit-learn.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Kubeflow</h4>
-                <img src="images/logos/kubeflow.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Kafka</h4>
-                <img src="images/logos/kafka.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Spark</h4>
-                <img src="images/logos/spark.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Airflow</h4>
-                <img src="images/logos/airflow.png" alt="">
-            </div>
-            <div class="card">
-                <h4>SQL</h4>
-                <img src="images/logos/sql.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Redshift</h4>
-                <img src="images/logos/redshift.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Databricks</h4>
-                <img src="images/logos/databricks.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Tableau</h4>
-                <img src="images/logos/tableau.png" alt="">
-            </div>
-            <!-- <div class="card">
-                <h4>Power BI</h4>
-                <img src="images/logos/powerbi.png" alt="">
-            </div> -->
-            <div class="card">
-                <h4>AWS</h4>
-                <img src="images/logos/aws.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Kubernetes</h4>
-                <img src="images/logos/k8s.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Terraform</h4>
-                <img src="images/logos/terraform.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Pulumi</h4>
-                <img src="images/logos/pulumi.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Ansible</h4>
-                <img src="images/logos/ansible.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Github Actions</h4>
-                <img src="images/logos/gh-actions.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Prometheus</h4>
-                <img src="images/logos/prometheus.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Grafana</h4>
-                <img src="images/logos/grafana.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Elastic</h4>
-                <img src="images/logos/elastic.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Kibana</h4>
-                <img src="images/logos/kibana.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience -->
-    <section class="languages">
-        <h2 class="md text-center my-2">
-            Companies worked at
-        </h2>
-        <div class="container flex">
-            <div class="card">
-                <!-- <a href="https://medium.bio/"> -->
-                <h4>Medium Bio</h4>
-                <img src="images/logos/mediumbio.png" alt="">
-                <!-- </a> -->
-            </div>
-            <div class="card">
-                <!-- <a href="https://determinas.com/"> -->
-                <h4>Determinas</h4>
-                <img src="images/logos/determinas.png" alt="">
-                <!-- </a> -->
-              </div>
-            <div class="card">
-                <!-- <a href="http://www.idaf.ng/"> -->
-                <h4>IDAF</h4>
-                <img src="images/logos/idaf.png" alt="">
-                <!-- </a> -->
-              </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer bg-dark py-5">
-        <div class="container grid grid-3">
-            <div>
-                <h1>Fhuad Balogun
-                </h1>
-                <a href="https://www.youtube.com/watch?v=p0bGHP-PXD4&list=LL&index=8&t=194s">Website Credit</a>
-                <!-- <p>Website Credit &copy; 2021</p> -->
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <!-- <li><a href="projects.html">Projects</a></li> -->
-                    <li><a href="stacks.html">My Stacks</a></li>
-                    <li><a href="https://github.com/fhuadeen">GitHub</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
+                    </li> -->
                 </ul>
-            </nav>
-            <div class="social">
-                <a href="https://github.com/fhuadeen"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://stackoverflow.com/users/13329337/fhuad-balogun"><i class="fab fa-stack-overflow fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/fhuadeen/"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://medium.com/@fhuadeen"><i class="fab fa-medium fa-2x"></i></a>
-                <a href="https://twitter.com/fhuadeen"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="mailto:fhuadbalgoun@gmail.com"><i class="fab fa-google fa-2x"></i></a>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hello, I'm</h6>
+                <h6 class="title">Fhuad Balogun</h6>
+                <p>Backend | AI/ML | Cloud</p>
+
+                <div class="buttons pt-3">
+                    <a href="mailto:fhuadbalgoun@gmail.com"><button class="btn btn-primary rounded">HIRE ME</button></a>
+                    <!-- <button class="btn btn-primary rounded" onclick="window.location.href='mailto:fhuadbalgoun@gmail.com'">HIRE ME</button> -->
+                    <!-- <button class="btn btn-dark rounded">DOWNLOAD CV</button> -->
+                </div>      
+
+                <div class="socials mt-4">
+                    <a class="social-item" href="https://github.com/fhuadeen" target="_blank"><i class="ti-github"></i></a>
+                    <a class="social-item" href="https://www.linkedin.com/in/fhuadeen" target="_blank"><i class="ti-linkedin"></i></a>
+                    <a class="social-item" href="https://stackoverflow.com/users/13329337/fhuad-balogun" target="_blank"><i class="ti-stack-overflow"></i></a>
+                    <a class="social-item" href="mailto:fhuadbalgoun@gmail.com"><i class="ti-google"></i></a>
+                    <a class="social-item" href="https://twitter.com/fhuadeen" target="_blank"><i class="ti-twitter"></i></a>
+                    <a class="social-item" href="https://bsky.app/profile/fhuadeen.bsky.social" target="_blank"><i class="ti-bluesky"></i></a>
+                    <!-- <a class="social-item" href="javascript:void(0)" target="_blank"><i class="ti-medium"></i></a> -->
+                </div>
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/logo.png" alt="">
+                <style>
+                    img {
+                      border-radius: 50%;
+                    }
+                </style>
+                <!-- <img src="assets/imgs/man.svg" alt=""> -->
+                <!-- <img src="assets/imgs/fhuad.jpg" alt=""> -->
+                <!-- <style>
+                    img {
+                      border-radius: 50%;
+                    }
+                  </style> -->
+            </div>      
+        </div>  
+
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <h2>3</h2>
+                <p>Articles Written</p>
+            </div>
+            <div class="widget-item">
+                <h2>28</h2>
+                <p>Projects Completed</p>
+            </div>
+            <div class="widget-item">
+                <h2>0</h2>
+                <p>Awards Won</p>
             </div>
         </div>
-    </footer>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/fhuad_mask.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Fhuad Balogun</h6>
+                    <p class="subtitle">Software Engineer</p>
+                    <p>Building and scaling AI and Backend systems to drive business growth and operational excellence.</p>
+                    <p>2x AWS certified.</p>
+                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Service</h6>
+            <h6 class="section-title mb-4">What I Do</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-harddrives"></i>
+                            <h5>Backend Engineering</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>AI/ML</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-cloud"></i>
+                            <h5>Cloud Engineering</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>SEO</h5>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Skills</h6>
+            <!-- <h6 class="section-title mb-4">Why Choose me</h6> -->
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="certifications-div">
+                <h6 class="section-title mb-4">Certifications</h6>
+                <div class="container-flex">
+                    <div class="cert-card">
+                        <a href="https://www.credly.com/badges/71167e0e-5cf1-40be-a2e2-44259692062f" target="_blank">
+                        <!-- <h4>AWS Developer Associate</h4> -->
+                        <img src="assets/imgs/logos/aws_dva.png" alt="">
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <a href="https://www.credly.com/badges/41b781fb-3450-404f-96c1-4028c707e25a" target="_blank">
+                        <!-- <h4>AWS ML Specialty</h4> -->
+                        <img src="assets/imgs/logos/aws_mls.png" alt="">
+                        </a>
+                      </div>
+                </div>
+            </div>
+
+            <div class="technologies-div">
+                <h6 class="section-title mb-4">Technologies</h6>
+                <div class="container-flex">
+                    <div class="cert-card">
+                        <!-- <h4>Python</h4> -->
+                        <img src="assets/imgs/logos/python.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Node.js</h4> -->
+                        <img src="assets/imgs/logos/node.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Typescript</h4> -->
+                        <img src="assets/imgs/logos/typescript.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Javascript</h4> -->
+                        <img src="assets/imgs/logos/javascript.png" alt="">
+                    </div>
+                    <!-- <div class="cert-card">
+                        <h4>Rust</h4>
+                        <img src="assets/imgs/logos/rust.png" alt="">
+                      </div> -->
+                    <div class="cert-card">
+                        <!-- <h4>FastAPI</h4> -->
+                        <img src="assets/imgs/logos/fastapi.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Django</h4> -->
+                        <img src="assets/imgs/logos/django.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Flask</h4> -->
+                        <img src="assets/imgs/logos/flask.png" alt="">
+                      </div>
+                    <div class="cert-card">
+                        <!-- <h4>GraphQL</h4> -->
+                        <img src="assets/imgs/logos/graphql.png" alt="">
+                      </div>
+                    <div class="cert-card">
+                        <!-- <h4>Pytorch</h4> -->
+                        <img src="assets/imgs/logos/pytorch.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>SQL</h4> -->
+                        <img src="assets/imgs/logos/sql.png" alt="">
+                    </div>
+                    <!-- <div class="cert-card">
+                        <h4>TensorFlow</h4>
+                        <img src="assets/imgs/logos/tensorflow.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Scikit-Learn</h4>
+                        <img src="assets/imgs/logos/scikit-learn.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Kubeflow</h4>
+                        <img src="assets/imgs/logos/kubeflow.png" alt="">
+                    </div> -->
+                    <div class="cert-card">
+                        <!-- <h4>Kafka</h4> -->
+                        <img src="assets/imgs/logos/kafka.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Spark</h4> -->
+                        <img src="assets/imgs/logos/spark.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Airflow</h4> -->
+                        <img src="assets/imgs/logos/airflow.png" alt="">
+                    </div>
+                    <!-- <div class="cert-card">
+                        <h4>Redshift</h4>
+                        <img src="assets/imgs/logos/redshift.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Databricks</h4>
+                        <img src="assets/imgs/logos/databricks.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Tableau</h4>
+                        <img src="assets/imgs/logos/tableau.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Power BI</h4>
+                        <img src="assets/imgs/logos/powerbi.png" alt="">
+                    </div> -->
+                    <div class="cert-card">
+                        <!-- <h4>AWS</h4> -->
+                        <img src="assets/imgs/logos/aws.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Kubernetes</h4> -->
+                        <img src="assets/imgs/logos/k8s.png" alt="">
+                    </div>
+                    <div class="cert-card">
+                        <!-- <h4>Terraform</h4> -->
+                        <img src="assets/imgs/logos/terraform.png" alt="">
+                    </div>
+                    <!-- <div class="cert-card">
+                        <h4>Pulumi</h4>
+                        <img src="assets/imgs/logos/pulumi.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Ansible</h4>
+                        <img src="assets/imgs/logos/ansible.png" alt="">
+                    </div> -->
+                    <div class="cert-card">
+                        <!-- <h4>Github Actions</h4> -->
+                        <img src="assets/imgs/logos/gh-actions.png" alt="">
+                    </div>
+                    <!-- <div class="cert-card">
+                        <h4>Prometheus</h4>
+                        <img src="assets/imgs/logos/prometheus.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Grafana</h4>
+                        <img src="assets/imgs/logos/grafana.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Elastic</h4>
+                        <img src="assets/imgs/logos/elastic.png" alt="">
+                    </div> -->
+                    <!-- <div class="cert-card">
+                        <h4>Kibana</h4>
+                        <img src="assets/imgs/logos/kibana.png" alt="">
+                    </div> -->
+                </div>
+
+                <!-- <div class="row text-left">
+                    <div class="col-sm-6">
+                        <h6 class="mb-3">Photoshop</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="mb-3">Web Design</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="mb-3">App Design</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="mb-3">SEO</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                        </div>
+                    </div>
+                </div>  -->
+            </div> 
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Portfolio</h6>
+            <h6 class="section-title mb-4">Some of my Projects</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>FastAuth</h5>
+                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Sprocket Analytics</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Mealtok</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Testmonial Section -->
+    <section id="testmonial" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Testmonial</h6>
+            <h6 class="section-title mb-4">What People Say About Me</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/ife.jpeg" alt="">
+                                <p>Fhuad is a fantastic team player with a contagious work ethic!! Always gets the job done!</p>
+                                <h1 class="title">Ifeoluwa Olagunju</h1>
+                                <h1 class="subtitle">Data scientist | AWS Machine Learning Specialist</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-2.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Michael Abra</h1>
+                                <h1 class="subtitle">Web Developer</h1>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of testmonial section -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Blogs</h6>
+            <h6 class="section-title mb-4">Latest Articles</h6>
+            <p class="mb-5 pb-4">I write often about scaling and optimising backend systems, <br> artificial intelligence and API security.</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/owasp-top-5-api-blog.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">OWASP Top 5 API Security Risks of 2023: A Focus on Authentication and Authorization</h5>
+                            <div class="post-details">
+                                <a href="https://medium.com/@fhuadeen/owasp-top-5-api-security-risks-of-2023-a-focus-on-authentication-and-authorization-2a8b4459c12d" target="_blank">Posted By: Me</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 3</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 0</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 0</a>
+                            </div>
+                            <p>In 2023, it’s no surprise that the top five API security risks identified in the OWASP API Security Top 10 list revolve around authentication and authorization.</p>
+                            <a href="https://medium.com/@fhuadeen/owasp-top-5-api-security-risks-of-2023-a-focus-on-authentication-and-authorization-2a8b4459c12d" target="_blank">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/owasp-2021-uno-blog.png" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Broken Access Control: An OWASP 2021 Numero Uno</h5>
+                            <div class="post-details">
+                                <a href="https://medium.com/@fhuadeen/broken-access-control-an-owasp-2021-numero-uno-e603caaf4bea" target="_blank">Posted By: Me</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 10</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 1</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 0</a>
+                            </div>
+                            <p>Broken Access Control ranks number one on the current OWASP top ten list of most exploited web application vulnerabilities.</p>
+                            <a href="https://medium.com/@fhuadeen/broken-access-control-an-owasp-2021-numero-uno-e603caaf4bea" target="_blank">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/aws-dva-blog.png" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">How I Passed the AWS Certified Developer Associate (DVA-CO2) Exam</h5>
+                            <div class="post-details">
+                                <a href="https://medium.com/@fhuadeen/how-i-passed-the-aws-certified-developer-associate-dva-co2-exam-e802abb1ea12">Posted By: Me</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 89</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 29</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 0</a>
+                            </div>
+                            <p>I took no less than two 65-question exam practice daily.</p>
+                            <a href="https://medium.com/@fhuadeen/how-i-passed-the-aws-certified-developer-associate-dva-co2-exam-e802abb1ea12" target="_blank">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hire me section -->
+    <!-- <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Hire Me For Your Project</h5>
+                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Hire Me!</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>       -->
+    <!-- End od Hire me section. -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="contact text-left">
+                <div class="form">
+                    <h6 class="subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form method="POST" action="https://formspree.io/f/xqaagvqa">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="name" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p> Lagos, Nigeria</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-linkedin"></i>
+                        <div>
+                            <h5>LinkedIn</h5>
+                            <p>Fhuad Balogun</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>fhuadbalgoun@gmail.com</p>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>  
+        <div id="map">
+            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
+        </div>      
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://github.com/fhuadeen" target="_blank"><i class="ti-github"></i></a>
+                        <a class="social-item" href="https://www.linkedin.com/in/fhuadeen" target="_blank"><i class="ti-linkedin"></i></a>
+                        <a class="social-item" href="https://twitter.com/fhuadeen" target="_blank"><i class="ti-twitter"></i></a>
+                        <a class="social-item" href="https://bsky.app/profile/fhuadeen.bsky.social" target="_blank"><i class="bi-bluesky"></i></a>
+                        <!-- <a class="social-item" href="https://bsky.app/profile/fhuadeen.bsky.social" target="_blank"><i class="ti-bluesky"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
 </body>
 </html>
