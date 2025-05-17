@@ -11685,3 +11685,213 @@ pre {
 .logo-img {
   border-radius: 50%;
 }
+
+/* Certifications */
+.certifications-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.carousel-slide {
+  min-width: 25%; /* Shows 4 cards at a time (100%/4) */
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.cert-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 15px;
+  user-select: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.cert-arrow:hover {
+  color: #007bff;
+}
+
+.custom-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.custom-card img {
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments in certs*/
+@media (max-width: 992px) {
+  .carousel-slide {
+      min-width: 33.33%; /* Shows 3 cards at a time */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-slide {
+      min-width: 50%; /* Shows 2 cards at a time */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-slide {
+      min-width: 100%; /* Shows 1 card at a time */
+  }
+}
+
+/* Technologies */
+.tech-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tech-carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tech-carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.tech-carousel-slide {
+  min-width: 25%; /* Shows 4 cards at a time (100%/4) */
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 15px;
+  user-select: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.arrow:hover {
+  color: #ff7a57;
+}
+
+.custom-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  color: #ff7a57
+}
+
+.custom-card img {
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments in tech*/
+@media (max-width: 992px) {
+  .carousel-slide {
+      min-width: 33.33%; /* Shows 3 cards at a time */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-slide {
+      min-width: 50%; /* Shows 2 cards at a time */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-slide {
+      min-width: 100%; /* Shows 1 card at a time */
+  }
+}
+
+/* Blogs */
+.blog-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.blog-slide {
+  min-width: 33.33%; /* Shows 3 blog cards at once */
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  .blog-slide {
+    min-width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .blog-slide {
+    min-width: 100%;
+  }
+}
+
+.arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 15px;
+  user-select: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.arrow:hover {
+  color: #ff7a57;
+}
+
+.blog-card {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.blog-card:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-5px);
+}
+
