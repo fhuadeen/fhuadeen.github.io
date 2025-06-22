@@ -11895,3 +11895,35 @@ pre {
   transform: translateY(-5px);
 }
 
+
+.bi-bluesky {
+  -webkit-mask: url("../imgs/bluesky.svg") no-repeat center;
+  mask: url("../imgs/bluesky.svg") no-repeat center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #ff7a57;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.bi-bluesky:hover {
+  background-color: #fff;
+}
+
+.bi-x {
+  -webkit-mask: url("../imgs/x.svg") no-repeat center;
+  mask: url("../imgs/x.svg") no-repeat center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #ff7a57;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.bi-x:hover {
+  background-color: #fff;
+}
