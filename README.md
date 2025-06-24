@@ -11,3 +11,4 @@
 [AI icons](https://lobehub.com/icons)
 [Tech icons](https://techicons.dev/icons)
 [Free Website Templates](https://templatemo.com/page/2)
+[SVG icons](https://icons.getbootstrap.com/)
