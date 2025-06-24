@@ -11927,3 +11927,19 @@ pre {
 .bi-x:hover {
   background-color: #fff;
 }
+
+.bi-medium {
+  -webkit-mask: url("../imgs/medium.svg") no-repeat center;
+  mask: url("../imgs/medium.svg") no-repeat center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #ff7a57;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.bi-medium:hover {
+  background-color: #fff;
+}
